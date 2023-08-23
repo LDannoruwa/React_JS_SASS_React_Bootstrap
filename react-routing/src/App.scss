@@ -1,0 +1,16 @@
+//when deploying scss -> css
+//customize boostrap using SASS
+
+//Change primary color
+$primary : #742ebb;
+
+//change boarder radius of button
+$btn-boarder_radius: 25px;
+
+.user-area{
+    color: $primary;
+}
+
+/* import bootstrap to set changes */
+@import '~bootstrap/scss/bootstrap';
+
